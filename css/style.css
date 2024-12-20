@@ -192,3 +192,223 @@ margin-top: 150.17px;
     letter-spacing: -0.53px;
     width: 89px;
 }
+
+.main3 {
+    margin-top: 102px;
+}
+
+.main3 .container-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .info-hero h3 {
+    width: 556px;
+    color: #19191B;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: -1.56px;
+    margin: 30px;
+}
+
+.info-hero p {
+    width: 459px;
+    color: #696871;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.63px;
+    margin-bottom: 30px;
+}
+
+.info-hero a {
+    color: #5454D4;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    letter-spacing: -0.53px;
+    width: 89px;
+}
+
+.container .picture {
+    width: 346.37;
+}
+
+.main4 {
+    margin-top: 119px;
+}
+
+.main4 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+
+.container .first .photo {
+    width: 151px;
+    margin-bottom: 7px;
+}
+
+.first .text h3 {
+    color: #19191B;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    letter-spacing: -0.17px;
+    text-align: center;
+    width: 138px;
+    margin-bottom: 20px;
+}
+
+.first .text p {
+    color: #696871;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    width: 307px;
+}
+
+.main5 {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+
+.plan .plan-title {
+    width: 523px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+    color: #19191B;
+    letter-spacing: -1.88px;
+}
+
+.plan-payment {
+    width: 346px;
+    padding: 5px;
+    background-color: #F7F7FB;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+.plan-payment button {
+    width: 50%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    transition: all 0.5s;
+    color: #19191B;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+}
+
+.plan-payment button:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.plan-payment button:first-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.plan-payment button:hover {
+    background-color: #5454d4;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #FFFFFF;
+}
+
+.plan-bottom {
+    margin-top: 82px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plan-bottom .block {
+    background-color: #f8f8f8;
+    width: 330px;
+    padding: 34px 24px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.plan-bottom .block:hover {
+    background-color: #FF7143;
+    color: #FFFFFF;
+    transform: scale(1.2);
+}
+
+.plan-bottom .block .subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.56px;
+    margin-bottom: 22px;
+    color: #696871;
+    transition: all 0.5s;
+}
+
+.plan-bottom .block .subtitle:hover {
+    color: #FFFFFF;
+}
+
+.plan-bottom .block h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 60px;
+    letter-spacing: -1.03px;
+    margin-bottom: 28px;
+    color: #1D293F;
+}
+
+.plan-info {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    margin-bottom: 36px;
+}
+
+.plan-info span {
+    font-family: 'Mulish', sans-serif;
+    font-size: 17px;
+    letter-spacing: -0.53px;
+    color: #696871;
+    transition: all 0.5s;
+}
+
+.plan-info span:hover {
+    color: #FFFFFF;
+}
+
+.plan-bottom .block button {
+    width: 100%;
+    border: none;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #EAE9F2;
+
+    font-family: DMSans;
+    font-size: 17px;
+    line-height: 19.92px;
+    letter-spacing: -0.5314737558364868px;
+    color: #5454D4;
+    transition: all 0.5s;
+}
+
+.plan-bottom .block button:hover {
+    color: #FFFFFF;
+    background-color: #9F3919;
+}
